@@ -34,13 +34,10 @@ export default function About() {
                   }}
                 >
                   <Typography
-                    variant="h3"
-                    sx={{ color: "primary.main", fontSize: { xs: 28, md: 36 } }}
+                    variant="h4"
+                    sx={{ color: "primary.main", fontSize: { xs: 18, md: 22 } }}
                   >
                     {stat.value}
-                  </Typography>
-                  <Typography variant="body2" sx={{ color: "text.secondary" }}>
-                    {stat.label}
                   </Typography>
                 </Box>
               </Grid>

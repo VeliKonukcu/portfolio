@@ -13,13 +13,16 @@ export const profile = {
 export const about = {
   heading: "Hakkımda",
   paragraphs: [
-    "2023 yılında aldığım özel yazılım kursu sürecinde HTML, CSS, Bootstrap, JavaScript, React, NodeJs, Python ve Django gibi teknolojiler öğrendim ve proje geliştirme fırsatı buldum.",
-    "2024 yılında başladığım yazılım mühendisliği yüksek lisans eğitimi sürecinde ise veri bilimi, veri analizi, veri görselleştirme, yapay zeka, makine öğrenmesi ve derin öğrenme gibi birçok alanda eğitim aldım ve Python ile geliştirdiğimiz projelerde numpy, pandas, mathplotlib, seaborn, keras ve tensorflow gibi kütüphaneler öğrendim. Bitirme projesi olarak doğal dil işleme tekniklerini kullanarak İngilizce - Türkçe çeviri yapan derin öğrenme modeli geliştirdim.",
+    "Merhaba, ben Veli Konukcu.",
+    "Yazılım geliştirme, web teknolojileri ve yapay zekâ alanlarında modern, güvenilir ve kullanıcı odaklı çözümler geliştiriyorum. Web uygulamalarından kurumsal yazılımlara, veri analizi projelerinden yapay zekâ tabanlı uygulamalara kadar farklı alanlarda teknolojiyi iş süreçlerine değer katacak şekilde kullanmayı hedefliyorum.",
+    "2023 yılında yoğun bir yazılım uzmanlığı eğitimiyle profesyonel yazılım geliştirme yolculuğuma başladım. Bu süreçte HTML, CSS, JavaScript, React, Node.js, Python ve Django gibi güncel teknolojiler üzerinde çalışarak gerçek projeler geliştirdim. Ardından Yazılım Mühendisliği yüksek lisans eğitimime devam ederek veri bilimi, makine öğrenmesi, derin öğrenme ve doğal dil işleme alanlarında uzmanlaştım.",
+    "Python ekosisteminde NumPy, Pandas, Matplotlib, TensorFlow ve Keras gibi teknolojilerle yapay zekâ uygulamaları geliştiriyor; kullanıcı deneyimini ön planda tutan, ölçeklenebilir ve sürdürülebilir yazılım çözümleri üretiyorum.",
+    "Her projede kalite, şeffaf iletişim ve zamanında teslim ilkelerini benimseyerek müşterilerime uzun vadeli ve güvenilir teknoloji çözümleri sunmayı amaçlıyorum.",
   ],
   stats: [
-    { value: "1+", label: "Deneyim yılı" },
-    { value: "4+", label: "Tamamlanan proje" },
-    { value: "4+", label: "Mutlu Müşteri" },
+    { value: "Yazılım Uzmanlığı Eğitimi", label: "" },
+    { value: "Yazılım Mühendisliği Yüksek Lisansı", label: "" },
+    { value: "Yapay Zekâ & Web Teknolojileri", label: "" },
   ],
 };
 
@@ -46,10 +49,20 @@ export const skills = [
     category: "Backend",
     items: ["Node.js", "Express", "Django", "MySql", "MongoDB", "PostgreSQL"],
   },
-  // {
-  //   category: "Tools & Cloud",
-  //   items: ["Git", "Docker", "AWS", "Vercel"],
-  // },
+  {
+    category: "Data Science",
+    items: [
+      "Python",
+      "Tensorflow",
+      "Keras",
+      "Numpy",
+      "Pandas",
+      "Matplotlib",
+      "Seaborn",
+      "Plotly",
+      "Scikit-Learn",
+    ],
+  },
 ];
 
 export const projects = [
@@ -82,7 +95,7 @@ export const projects = [
     description:
       "Bu projede hazır nodeJs api ve React' ın useReducer ve useContext araçları ile bir pizza firmasının sipariş sitesini tasarladım.",
     tags: ["React"],
-    demo: "https://github.com/VeliKonukcu/PizzaHot-Project",
+    demo: "https://pizzahot-project.vercel.app/",
     source: "https://github.com/VeliKonukcu/PizzaHot-Project",
   },
   {
